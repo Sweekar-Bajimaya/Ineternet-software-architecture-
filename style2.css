@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500vh;
+    width: 100%;
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url(https://t3.ftcdn.net/jpg/04/36/77/74/360_F_436777481_3Nk1sGJwa9UaYtJZ8dzeHVZrV4j0ACo3.jpg); 
+    background-size:cover;
+    background-position: center;
+    font-family: 'Lobster', cursive;;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+    color: #D5CEA3;
+    font-size: 67px;    
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #D5CEA3;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #D5CEA3;
+    font-size: 27px;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: crimson;
+    padding: 5px 10px;
+    border: 2px solid #D5CEA3;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 56px;
+    color: #D5CEA3;
+    font-weight: 500;
+}
+.home p{
+    color: #D5CEA3;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.home ul{
+    color: #D5CEA3;
+    font-size: 25px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
